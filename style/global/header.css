@@ -6,50 +6,6 @@
     min-height: 420px;
 }
 
-#agendar .header-bg {
-    background: #F2F2F7;
-}
-
-#agendar .header {
-    background: var(--cor-13);
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    justify-content: space-around;
-    overflow: hidden;
-}
-
-#agendar iframe {
-    border: none;
-    width: 100%;
-    height: 100%;
-    margin-top: -130px;
-    z-index: 0;
-    position: relative;
-    overflow-y: scroll;
-}
-
-@media(max-width:800px) {
-    #agendar .header {
-        overflow: visible;
-    }
-    /*     #agendar iframe {
-        margin-top: -150px;
-    } */
-}
-
-
-/* @media(max-width:600px) {
-    #agendar iframe {
-        margin-top: -16px;
-    }
-}
- */
-
 .header {
     display: flex;
     align-items: center;
@@ -108,7 +64,6 @@
         display: block;
         transition: .6s;
         visibility: hidden;
-        overflow-y: hidden;
     }
     .header-menu li {
         border-bottom: 2px solid rgba(51, 51, 51, 0.226);
